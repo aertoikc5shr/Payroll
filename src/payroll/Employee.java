@@ -37,14 +37,14 @@ public class Employee {
 	}
 	public PaymentClassification getPaymentClassification() {
 		// TODO Auto-generated method stub
-		return null;
+		return paymentClassification;
 	}
 	public void setPaymentClassification(PaymentClassification paymentClassification) {
 		this.paymentClassification = paymentClassification;
 	}
 	public PaymentMethod getPaymentMethod() {
 		// TODO Auto-generated method stub
-		return null;
+		return paymentMethod;
 	}
 	public void setPaymentMethod(PaymentMethod paymentMethod) {
 		this.paymentMethod = paymentMethod;
