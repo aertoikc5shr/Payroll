@@ -46,5 +46,8 @@ public class Employee {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	public void setPaymentMethod(PaymentMethod paymentMethod) {
+		this.paymentMethod = paymentMethod;
+	}
 
 }
