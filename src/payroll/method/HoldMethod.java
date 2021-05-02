@@ -1,5 +1,7 @@
 package payroll.method;
 
-public class HoldMethod {
+import payroll.PaymentMethod;
+
+public class HoldMethod extends PaymentMethod{
 
 }
