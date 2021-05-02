@@ -28,6 +28,8 @@ public class Employee {
 		this.name = name;
 		this.address = address;
 	}
-	
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
 
 }
