@@ -17,4 +17,10 @@ public class AddHourlyEmployeeTransaction implements Transaction {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
