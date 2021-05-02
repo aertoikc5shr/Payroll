@@ -1,5 +1,5 @@
 package payroll.exception;
 
-public class NoSuchEmployeeException extends Exception {
+public class NoSuchEmployeeException extends RuntimeException {
 
 }
