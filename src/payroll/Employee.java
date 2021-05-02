@@ -5,6 +5,7 @@ public class Employee {
 	private String name;
 	private String address;
 	private PaymentClassification paymentClassification;
+	private PaymentMethod paymentMethod;
 	
 	
 	public int getEmpId() {
