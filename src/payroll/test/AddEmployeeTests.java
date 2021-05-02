@@ -71,8 +71,7 @@ public class AddEmployeeTests {
 		double salary = 2410.0;
 		double commissionRate = 0.02;
 		
-		Transaction t = new AddCommissionedEmployeeTransaction(empId, name, address,
-				salary, commissionRate);
+		Transaction t = new AddCommissionedEmployeeTransaction(empId, name, address,salary, commissionRate);
 		t.execute();
 		
 		Employee e = PayrollDatabase.getEmployee(empId);
