@@ -27,7 +27,7 @@ public class DeleteEmployeeTest {
 	
 	@Test
 	public void deleteEmployeeNotExists() {
-		int empId = 200200;
+		int empId = 2002;
 		Employee e = PayrollDatabase.getEmployee(empId);
 		assertNull(e);
 		
