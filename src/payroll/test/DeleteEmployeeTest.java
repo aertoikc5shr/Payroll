@@ -7,6 +7,7 @@ import org.junit.Test;
 import payroll.Employee;
 import payroll.PayrollDatabase;
 import payroll.Transaction;
+import payroll.exception.NoSuchEmployeeException;
 import payroll.trans.AddHourlyEmployeeTransaction;
 import payroll.trans.DeleteEmployeeTransaction;
 
@@ -22,6 +23,16 @@ public class DeleteEmployeeTest {
 
 		Employee e = PayrollDatabase.getEmployee(empId);
 		assertNull(e);
+	}
+	
+	@Test
+	public void deleteEmployeeNotExists() {
+		int empId = 200200;
+		Employee e = PayrollDatabase.getEmployee(empId);
+		assertNull(e);
+		
+		Transaction t = new DeleteEmployeeTransaction(empId);
+		t.execute();
 	}
 
 }
