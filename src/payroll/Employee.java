@@ -41,5 +41,9 @@ public class Employee {
 	public void setPaymentClassification(PaymentClassification paymentClassification) {
 		this.paymentClassification = paymentClassification;
 	}
+	public PaymentMethod getPaymentMethod() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
