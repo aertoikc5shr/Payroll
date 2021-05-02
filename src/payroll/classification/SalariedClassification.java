@@ -1,5 +1,7 @@
 package payroll.classification;
 
-public class SalariedClassification {
+import payroll.PaymentClassification;
+
+public class SalariedClassification extends PaymentClassification{
 
 }
