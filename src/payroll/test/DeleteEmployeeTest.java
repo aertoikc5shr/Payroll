@@ -32,7 +32,14 @@ public class DeleteEmployeeTest {
 		assertNull(e);
 		
 		Transaction t = new DeleteEmployeeTransaction(empId);
-		t.execute();
+		try {
+			t.execute();
+			fail("No such employee.");
+		} catch (Exception e2) {
+			// TODO: handle exception
+			assertTrue(e2 instanceof NoSuchEmployeeException);
+		}
+		
 	}
 
 }
