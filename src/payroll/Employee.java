@@ -4,6 +4,9 @@ public class Employee {
 	private int empId;
 	private String name;
 	private String address;
+	private PaymentClassification paymentClassification;
+	
+	
 	public int getEmpId() {
 		return empId;
 	}
@@ -34,6 +37,9 @@ public class Employee {
 	public PaymentClassification getPaymentClassification() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+	public void setPaymentClassification(PaymentClassification paymentClassification) {
+		this.paymentClassification = paymentClassification;
 	}
 
 }
