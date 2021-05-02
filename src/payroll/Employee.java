@@ -31,5 +31,9 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	public PaymentClassification getPaymentClassification() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
