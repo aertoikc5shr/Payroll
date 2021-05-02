@@ -21,8 +21,8 @@ public class DeleteEmployeeTransaction implements Transaction {
 		if (e != null) {
 			PayrollDatabase.deleteEmployee(empId);
 		} else {
-			throw new NoSuchEmployeeException();
-		}
+			throw new NoSuchEmployeeException("No such employee empId="+empId);
+		} 
 
 	}
 
