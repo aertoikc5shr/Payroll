@@ -14,5 +14,9 @@ public class PayrollDatabase {
 		// TODO Auto-generated method stub
 		employees.put(employee.getEmpId(), employee);
 	}
+	public static void deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
