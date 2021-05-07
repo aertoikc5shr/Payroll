@@ -23,6 +23,8 @@ public class ChangeEmployeeTest {
 		String newName="Bob";
 		Transaction t = new ChangeNameTransaction(empId,newName);
 		t.execute();
+		Employee employee = PayrollDatabase.getEmployee(empId);
+		assertNotNull(newName,employee.getName());
 	}
 	
 	@Test
