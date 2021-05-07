@@ -17,5 +17,8 @@ public class ChangeEmployeeTest {
 	
 	@Test
 	public void testChangeSalaried() {}
+	
+	@Test
+	public void testChangeCommissioned() {}
 
 }
