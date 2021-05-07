@@ -15,6 +15,7 @@ public class ChangeEmployeeTest {
 	@Test
 	public void testChangeHourlyRate() {}
 	
-	
+	@Test
+	public void testChangeSalaried() {}
 
 }
