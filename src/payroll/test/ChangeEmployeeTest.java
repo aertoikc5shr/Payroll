@@ -9,5 +9,9 @@ public class ChangeEmployeeTest {
 	@Test
 	public void testChangeName() {}
 	
+	@Test
+	public void testChangeAddress() {}
+	
+	
 
 }
