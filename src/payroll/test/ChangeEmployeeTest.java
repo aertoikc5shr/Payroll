@@ -20,5 +20,8 @@ public class ChangeEmployeeTest {
 	
 	@Test
 	public void testChangeCommissioned() {}
+	
+	@Test
+	public void testChangeHoldMethod() {}
 
 }
