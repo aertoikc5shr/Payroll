@@ -23,5 +23,8 @@ public class ChangeEmployeeTest {
 	
 	@Test
 	public void testChangeHoldMethod() {}
+	
+	@Test
+	public void testChangeDirectMethod() {}
 
 }
