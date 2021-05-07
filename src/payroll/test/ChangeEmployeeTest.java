@@ -12,6 +12,9 @@ public class ChangeEmployeeTest {
 	@Test
 	public void testChangeAddress() {}
 	
+	@Test
+	public void testChangeHourlyRate() {}
+	
 	
 
 }
