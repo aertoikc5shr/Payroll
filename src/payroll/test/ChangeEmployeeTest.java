@@ -29,5 +29,8 @@ public class ChangeEmployeeTest {
 	
 	@Test
 	public void testChangeMailMethod() {}
+	
+	@Test
+	public void testChangeNobody() {}
 
 }
