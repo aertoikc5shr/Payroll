@@ -26,5 +26,8 @@ public class ChangeEmployeeTest {
 	
 	@Test
 	public void testChangeDirectMethod() {}
+	
+	@Test
+	public void testChangeMailMethod() {}
 
 }
